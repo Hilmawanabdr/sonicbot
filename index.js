@@ -45,7 +45,7 @@ function getKeypairFromPrivateKey(privateKeyBase58) {
 }
 
 function displayHeader() {
-  console.log(colors.magenta('--- Solana Transaction Script ---'));
+  console.log(colors.magenta('--- BOT SONIC AUTO TRANSAKSI SOLANA EVM ---'));
 }
 
 (async () => {
@@ -79,7 +79,7 @@ function displayHeader() {
     randomAddresses
   );
 
-  const amountToSend = 0.001;
+  const amountToSend = 0.000001;
 
   for (const [index, seedOrKey] of seedPhrasesOrKeys.entries()) {
     let fromKeypair;
